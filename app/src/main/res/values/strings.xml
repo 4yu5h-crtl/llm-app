@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartBot</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_sensors">Sensors</string>
+    <string name="nav_robot">Robot</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">SmartBot Dashboard</string>
+    <string name="status_robot_connection">Robot Connection</string>
+    <string name="status_ai_model">AI Model</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_loaded">Loaded</string>
+    <string name="status_not_loaded">Not Loaded</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="action_start_chat">Start Chat</string>
+    <string name="action_view_sensors">View Sensors</string>
+    <string name="action_control_robot">Control Robot</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="no_recent_activity">No recent activity</string>
+    
+    <!-- Chat Screen -->
+    <string name="chat_title">Chat with SmartBot</string>
+    <string name="chat_placeholder">Type a message...</string>
+    <string name="chat_welcome">Start a conversation with SmartBot!</string>
+    <string name="chat_subtitle">Ask questions, give commands, or just chat.</string>
+    <string name="listening">Listening...</string>
+    <string name="send">Send</string>
+    <string name="voice_input">Voice input</string>
+    
+    <!-- Sensors Screen -->
+    <string name="sensors_title">Sensor Data</string>
+    <string name="sensor_accelerometer">Accelerometer</string>
+    <string name="sensor_gyroscope">Gyroscope</string>
+    <string name="sensor_magnetometer">Magnetometer</string>
+    <string name="motion_analysis">Motion Analysis</string>
+    <string name="device_status">Device Status</string>
+    <string name="total_acceleration">Total Acceleration</string>
+    <string name="motion_moving">Moving</string>
+    <string name="motion_stationary">Stationary</string>
+    <string name="sensor_controls">Sensor Controls</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="reset">Reset</string>
+    
+    <!-- Robot Control Screen -->
+    <string name="robot_title">Robot Control</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="esp32_robot">ESP32 Robot</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="robot_status">Robot Status</string>
+    <string name="battery">Battery</string>
+    <string name="status">Status</string>
+    <string name="last_command">Last Command</string>
+    <string name="moving">Moving</string>
+    <string name="idle">Idle</string>
+    <string name="none">None</string>
+    <string name="directional_control">Directional Control</string>
+    <string name="forward">Forward</string>
+    <string name="backward">Backward</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="stop">Stop</string>
+    <string name="motor_control">Motor Control</string>
+    <string name="left_motor">Left Motor: %1$d%%</string>
+    <string name="right_motor">Right Motor: %1$d%%</string>
+    <string name="quick_commands">Quick Commands</string>
+    <string name="dance">Dance</string>
+    <string name="spin">Spin</string>
+    <string name="patrol">Patrol</string>
+    
+    <!-- Permissions -->
+    <string name="permission_camera">Camera permission is required for vision features</string>
+    <string name="permission_microphone">Microphone permission is required for voice features</string>
+    <string name="permission_bluetooth">Bluetooth permission is required for robot communication</string>
+    <string name="permission_location">Location permission is required for Bluetooth scanning</string>
+    
+    <!-- Errors -->
+    <string name="error_camera_init">Failed to initialize camera</string>
+    <string name="error_bluetooth_not_available">Bluetooth is not available</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_llm_not_loaded">AI model not loaded</string>
+    <string name="error_speech_recognition">Speech recognition error</string>
+    <string name="error_tts_failed">Text-to-speech failed</string>
+    
+    <!-- Educational Content -->
+    <string name="educational_mode_general">General Learning</string>
+    <string name="educational_mode_math">Mathematics</string>
+    <string name="educational_mode_science">Science</string>
+    <string name="educational_mode_history">History</string>
+    <string name="educational_mode_language">Language</string>
+    <string name="educational_mode_programming">Programming</string>
+    <string name="educational_mode_robotics">Robotics</string>
+    
+    <string name="difficulty_beginner">Beginner</string>
+    <string name="difficulty_intermediate">Intermediate</string>
+    <string name="difficulty_advanced">Advanced</string>
+    
+    <!-- Vision -->
+    <string name="vision_objects_detected">Objects detected: %1$d</string>
+    <string name="vision_faces_detected">Faces detected: %1$d</string>
+    <string name="vision_text_detected">Text detected</string>
+    <string name="vision_processing_time">Processing time: %1$d ms</string>
+    
+    <!-- Robot Commands -->
+    <string name="command_move_forward">Move Forward</string>
+    <string name="command_move_backward">Move Backward</string>
+    <string name="command_turn_left">Turn Left</string>
+    <string name="command_turn_right">Turn Right</string>
+    <string name="command_stop_movement">Stop Movement</string>
+    <string name="command_dance_mode">Dance Mode</string>
+    <string name="command_patrol_mode">Patrol Mode</string>
+    <string name="command_spin_mode">Spin Mode</string>
+</resources>
