@@ -1,7 +1,7 @@
-# SmartBot Project Summary
+# LLM App - SmartBot Educational Platform
 
 ## Overview
-SmartBot is a comprehensive educational robot platform that combines Android mobile development with ESP32 robotics and local AI capabilities. The project transforms a smartphone into an intelligent educational assistant that can control a physical robot while providing interactive learning experiences.
+LLM App is a revolutionary Android application that demonstrates the power of running Large Language Models locally on mobile devices. This educational platform combines local AI processing with robotics, voice interaction, and computer vision to create immersive STEM learning experiences while maintaining complete privacy through on-device processing.
 
 ## Project Structure
 
